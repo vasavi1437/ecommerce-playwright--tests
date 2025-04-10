@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-playwright-tests",
+  "version": "1.0.0",
+  "description": "Playwright automation tests for a sample e-commerce site",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "typescript": "^5.0.0"
+  }
+}
